@@ -1,0 +1,62 @@
+body {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    background: url(nature.gif) no-repeat;
+    background-size: cover;
+}
+
+.img-container {
+    border: 5px solid rgb(31, 189, 17);
+    border-radius: 100px; 
+
+    padding: 30px;
+}
+.img-container {
+    background-color: rgba(31, 189, 17); 
+    padding: 10px; 
+    margin: 20px;
+    border: 20px solid white; 
+    border-radius: 10px; /
+    overflow: hidden; 
+}
+
+.img-text {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 10px; 
+}
+
+.img-text h6 {
+    margin-bottom: 5px; 
+}
+
+
+.row {
+    text-align: center;
+}
+
+#col1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 10px;
+    border-color: aqua;
+    border-radius: 50%;
+}
+
+.img-container {
+    margin: 20px;
+}
+
+.custom-col {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
